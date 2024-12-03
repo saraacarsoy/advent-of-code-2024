@@ -1,7 +1,7 @@
 package main
 
 import (
-	utils "AoC2024/inputs"
+	utils "advent-of-code-2024/inputs"
 	"fmt"
 	"log"
 	"sort"

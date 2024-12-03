@@ -8,7 +8,7 @@ import (
 )
 
 func ReadFile(day string) ([]string, error) {
-	baseDir := `C:\Users\nilac\GoProjects\AoC 2024\inputs`
+	baseDir := `C:\Users\nilac\GoProjects\advent-of-code-2024\inputs`
 
 	filePath := filepath.Join(baseDir, fmt.Sprintf("%s.txt", day))
 
