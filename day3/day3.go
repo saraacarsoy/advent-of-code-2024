@@ -13,7 +13,7 @@ func main() {
 		log.Fatalf("Error reading input: %v", err)
 	}
 
-	// part1(input)
+	part1(input)
 	part2(input)
 }
 
