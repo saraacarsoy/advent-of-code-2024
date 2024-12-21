@@ -14,11 +14,13 @@ def evaluate_left_to_right(expression):
             result += next_number
         elif operator == '*':
             result *= next_number
+        elif operator == ' ':
+            result = int(str(result) + str(next_number))
 
     return result
 
 def generate_all_combinations(arr):
-    operators = ['+', '*']
+    operators = ['+', '*', ' ']
     num_slots = len(arr) - 1
     all_combinations = []
 
